@@ -20,6 +20,17 @@
           <a class="nav-link" href="#">Hakkımızda</a>
           <a class="nav-link" href="#">Blog</a>
           <a class="nav-link" href="#">İletişim</a>
+          <a class="nav-link" href="#"
+            ><style>
+              #myInput {
+                width: 80px;
+                height: auto;
+                border: 1px solid black;
+              }
+            </style>
+            <input type="text" id="myInput" />
+            <p id="length">search</p>
+          </a>
         </nav>
       </div>
     </header>
@@ -40,8 +51,6 @@
           travelblogger. Macera eğlencesi gezgin güzel tasarım web sitesi
           seferi.
         </p>
-        <input type="text" id="myInput" />
-        <p id="length"></p>
       </header>
       <section class="content-section">
         <div class="text-content">
@@ -75,12 +84,24 @@
           <p id="aga">Double-click me.</p>
         </div>
         <div class="text-content">
-          <h2>Macera beklemez</h2>
+          <h2>Macera Beklemez</h2>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            <style>
+              #myText {
+                width: 370px;
+                height: auto;
+                border: 1px solid black;
+              }
+            </style>
+            <input
+              type="text"
+              id="myText"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "
+            />
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
           </p>
           <p>
             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -88,8 +109,6 @@
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.
           </p>
-          Select some text:
-          <input type="text" value="Hello world!" id="myText" />
 
           <p id="memo"></p>
         </div>
@@ -143,34 +162,29 @@
           <div class="btn">Beni de Al!</div>
         </div>
         <div class="destination">
+          <style>
+            #myDIV {
+              font-size: 20px;
+              border: 1px solid black;
+              width: 200px;
+              height: 175px;
+              overflow: scroll;
+            }
+          </style>
+
           <h4>Ada Kaçamağı</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <div id="myDIV">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <p id="deneme"></p>
           <div class="btn">Beni de Al!</div>
         </div>
       </section>
-      <style>
-        #myDIV {
-          font-size: 20px;
-          border: 1px solid black;
-          width: 200px;
-          height: 100px;
-          overflow: scroll;
-        }
-      </style>
-      <div id="myDIV">
-        In my younger and more vulnerable years my father gave me some advice
-        that I've been turning over in my mind ever since. <br /><br />
-        'Whenever you feel like criticizing anyone,' he told me, just remember
-        that all the people in this world haven't had the advantages that you've
-        had.'
-      </div>
-
-      <p id="deneme"></p>
     </div>
 
     <!-- container -->
